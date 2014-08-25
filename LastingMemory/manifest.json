@@ -1,0 +1,22 @@
+{
+  "name": "Lasting Memory",
+  "description": "Lasting Memory",
+  "version": "1.0",
+  "icons":{
+    "16":"icon_16.png",
+    "32":"icon_32.png",
+    "48":"icon_48.png",
+    "64":"icon_64.png",
+    "128":"icon_128.png"
+  },
+  "manifest_version": 2,
+  "permissions": ["tabs","*://*/*","storage"],
+  "background": {
+    "scripts": ["jquery.js","background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "Lasting Memory" : "icon.png",
+    "default_title": "Lasting Memory"
+  }
+}
